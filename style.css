@@ -1,0 +1,49 @@
+*::after,
+*::before,
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0a0b0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#play-container {
+  background: linear-gradient(to right, rgb(252, 240, 240), rgb(255, 215, 215));
+  height: 550px;
+  max-width: 320px;
+  border-radius: 30px;
+  padding: 10px;
+  border: solid 8px #000000;
+  box-shadow: 0 0 12px 0.4px rgba(255, 255, 255, 0.055);
+}
+.context-h2 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 18px;
+  background: linear-gradient(rgb(56, 41, 0), rgb(56, 41, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-or-pause-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.play--icon,
+.pause--icon {
+  display: none;
+}
+.show-play {
+  display: block;
+}
+.icon {
+  height: 44px;
+  width: 44px;
+  cursor: pointer;
+}
